@@ -1,0 +1,24 @@
+{
+  "name": "image-upload-server",
+  "version": "1.0.0",
+  "description": "A Nodejs server that supports image uploads",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeantimex/image-upload-server.git"
+  },
+  "keywords": [],
+  "author": "Yong Su <jean.timex@gmail.com> (https://github.com/jeantimex)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jeantimex/image-upload-server/issues"
+  },
+  "homepage": "https://github.com/jeantimex/image-upload-server#readme",
+  "dependencies": {
+    "express": "^4.15.2",
+    "multer": "^1.3.0"
+  }
+}
