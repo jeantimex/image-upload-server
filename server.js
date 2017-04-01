@@ -19,8 +19,8 @@ var app = new express();
 
 app.post('/', multer({
   storage: storage
-}).single('upload'), function(req, res) {
-  console.log(req.file);
+}).array('file', 10), function(req, res) {
+  console.log(req.files);
   console.log(req.body);
   return res.status(204).end();
 });
